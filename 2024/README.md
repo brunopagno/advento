@@ -8,5 +8,5 @@ to execute
 to test
 
 ```sh
-rspec day_N_spec.rb
+rspec day#_spec.rb
 ```
