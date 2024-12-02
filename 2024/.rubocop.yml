@@ -18,6 +18,10 @@ Metrics/MethodLength:
   Enabled: false
 Metrics/ParameterLists:
   Enabled: false
+Metrics/PerceivedComplexity:
+  Enabled: false
+Metrics/CyclomaticComplexity:
+  Enabled: false
 
 RSpec/ExampleLength:
   Enabled: false

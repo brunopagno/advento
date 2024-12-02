@@ -11,4 +11,8 @@ class Day
 
   def part1; end
   def part2; end
+
+  def lines
+    @lines ||= input.split("\n")
+  end
 end

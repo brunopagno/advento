@@ -4,7 +4,7 @@ require_relative "day"
 
 class Day1 < Day
   def part1
-    left, right = input.split("\n").map do |line|
+    left, right = lines.map do |line|
       line.split.map(&:to_i)
     end.transpose
 
@@ -15,7 +15,7 @@ class Day1 < Day
   end
 
   def part2
-    left, right = input.split("\n").map do |line|
+    left, right = lines.map do |line|
       line.split.map(&:to_i)
     end.transpose
 
