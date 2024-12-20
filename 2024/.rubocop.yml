@@ -32,3 +32,6 @@ RSpec/NestedGroups:
 
 Layout/LineLength:
   Enabled: false
+
+Naming/MethodParameterName:
+  Enabled: false
