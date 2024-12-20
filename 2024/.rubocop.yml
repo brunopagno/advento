@@ -29,3 +29,6 @@ RSpec/MultipleMemoizedHelpers:
   Enabled: false
 RSpec/NestedGroups:
   Enabled: false
+
+Layout/LineLength:
+  Enabled: false
