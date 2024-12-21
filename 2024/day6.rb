@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require_relative "day"
+require_relative "lib/vec2"
 
 class Day6 < Day
   def part1
@@ -67,26 +68,5 @@ class Guard
 
   def rotate
     @direction = Vec2.new(-@direction.y, @direction.x)
-  end
-end
-
-class Vec2
-  attr_reader :x, :y
-
-  def initialize(x, y)
-    @x = x
-    @y = y
-  end
-
-  def +(other)
-    Vec2.new(x + other.x, y + other.y)
-  end
-
-  def hash
-    [x, y].hash
-  end
-
-  def eql?(other)
-    x == other.x && y == other.y
   end
 end
